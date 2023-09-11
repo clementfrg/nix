@@ -16,6 +16,11 @@
     poetry
     dotnet-sdk_7
     mono
+    opam
+    ocaml
+    emacs
+    emacsPackages.tuareg
+    ocamlPackages.merlin
 
     # Fonts
     (pkgs.nerdfonts.override {

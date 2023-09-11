@@ -28,7 +28,7 @@
 
       "custom/weather" = {
         format = "{}";
-        interval = 30 * 60; # Every 30 mins
+        interval = 10 * 60; # Every 10 mins
         exec = "${pkgs.curl}/bin/curl wttr.in/?format=1";
       };
 
